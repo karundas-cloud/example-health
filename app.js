@@ -1,4 +1,5 @@
 /* dependency setup */
+require('newrelic');
 process.env.UV_THREADPOOL_SIZE = 128;
 
 var express = require("express");
